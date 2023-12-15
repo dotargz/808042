@@ -1,27 +1,24 @@
 /* Simple CSS that needs to work on all browsers */
+* {
+    box-sizing: border-box;
+}
 
-
-/* center the page */
 body {
-    margin: 0 auto;
-    width: 80%;
-    max-width: 800px;
-    padding: 0.5em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
 div.container {
-    width: 100%;
-    border: 1px solid gray;
-    padding: 1em;
+    max-width: 800px;
+    margin: 0 auto; /* Center the container */
+    border: 1px solid #808080;
+    padding: 1%;
 }
 
 /* Style the header */
-header {
-    background-color: #c9c9c9;
-    padding: 1em;
-    color: rgb(31, 28, 28);
+header, footer {
+    background-color: #d3d3d3;
+    padding: 1%;
+    color: #111111;
     clear: left;
     text-align: center;
 }
@@ -35,14 +32,3 @@ header p {
     margin: 0;
     padding: 0;
 }
-
-/* Style the footer */
-footer {
-    background-color: #c9c9c9;
-    padding: 1em;
-    color: rgb(31, 28, 28);
-    clear: left;
-    text-align: center;
-}
-
-
